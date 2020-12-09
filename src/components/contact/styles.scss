@@ -1,0 +1,30 @@
+.contact {
+    margin: 0 15rem;
+    padding: 0;
+
+    .bg {
+        // position: absolute;
+        width: 100%;
+        background-color: burlywood;
+        margin: auto;
+        padding: 5rem;
+    }
+    .contactForm {
+        width: 40%;
+        background-color: #fff;
+        height: auto;
+        margin: auto;
+        display: block;
+        border: 1px solid black;
+
+        form {
+            display: inline-block;
+            padding: 2rem;
+
+            .description {
+                float: top;
+                height: 10rem;
+            }
+        }
+    }
+}

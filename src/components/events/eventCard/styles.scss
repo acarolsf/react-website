@@ -1,0 +1,27 @@
+.eventCard {
+    background-color: #fff;
+    width: 20rem;
+    height: 10rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+
+    div {
+        text-align: left;
+        margin: auto;
+    }
+    span.name {
+        color: crimson;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    span.local {
+        color: black;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1;
+    }
+}

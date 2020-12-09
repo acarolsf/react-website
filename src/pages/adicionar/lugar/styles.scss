@@ -1,0 +1,62 @@
+.addLocal {
+    margin: auto;
+
+    h2 {
+        margin: auto;
+        margin-left: 10%;
+    }
+
+    .form-div {
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        width: 80%;
+        height: 100%;
+
+    
+        ul, li {
+            list-style-type: none;
+            margin: auto;
+            padding: 0;
+        }
+    
+        ul {
+            display: table;
+            width:100%;
+            li {
+                display: table-cell;
+
+                &:last-child {
+                    
+                    width: 10%;
+                  }
+                button {
+                    margin-left: 5%;
+                }
+                select {
+                    width: 98%;
+                }
+            }
+        }  
+          
+    }
+
+    
+
+    .addCategoria {
+        margin: auto;
+    
+        h2 {
+            margin: auto;
+            margin-left: 10%;
+        }
+    
+        .form-div {
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 6rem;
+            width: 80%;
+            height: 100%;
+        }
+}
+}

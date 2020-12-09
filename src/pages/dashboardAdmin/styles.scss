@@ -1,0 +1,55 @@
+.dashAdmin {
+    padding: 0 10px;
+  
+    .wrap {
+      ul,
+      ul li {
+        padding: 0;
+        margin: 0;
+        position: flex;
+        height: 100%;
+      }
+  
+      ul {
+        text-align: center;
+        li {
+          display: inline-block;
+          margin: 2rem 12rem;
+          list-style-type: none;
+
+          button {
+            border-radius: 20px;
+          }
+          h1 {
+            text-align: center;
+            font-size: 4rem;
+            color: #fff;
+            margin-bottom: 2rem;
+            z-index: 2;
+          }
+  
+          a {
+            width: 22rem;
+            position: absolute;
+            margin-top: 8rem;
+            // top: 50%; left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            color: #fff;
+            font-size: 1.8rem;
+            line-height: 1;
+            font-weight: 400;
+            text-transform: uppercase;
+            background: rgb(7, 6, 7);
+            padding: 8px 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: black;
+          }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,16 @@
+.homepage {
+    // height: calc(100% - 6.5rem - 5.8rem);
+    margin-bottom: 10rem;
+    
+    #slide, #contato {
+        height: calc(100% - 6.5rem - 5.8rem);
+    }
+
+    #sobre, #historia, #eventos {
+        margin-top: 5%;
+    }
+
+    #contato {
+        margin: 10% auto;
+    }
+}
